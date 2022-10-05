@@ -265,7 +265,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Player 2 Win!
+  m_text: Player 2 Wins!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35f356424f64c2a4d900e65bfe9c4b57, type: 2}
   m_sharedMaterial: {fileID: 1398626794038825400, guid: 35f356424f64c2a4d900e65bfe9c4b57, type: 2}
@@ -680,10 +680,10 @@ RectTransform:
   m_Father: {fileID: 759989827}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.000015259}
-  m_SizeDelta: {x: 1366, y: 768}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -6.785}
+  m_SizeDelta: {x: 0, y: 604.4355}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1410385882
 MonoBehaviour:
@@ -768,7 +768,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -1026,7 +1026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayerGO: {fileID: 1536530234}
-  loservid: {fileID: 0}
+  loservid: {fileID: 32900000, guid: d50a660285c2afc4493828cd0d3f3e1e, type: 3}
 --- !u!4 &2093849781
 Transform:
   m_ObjectHideFlags: 0
