@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 32
+  controlID: 19
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,13 +317,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Mones Family\Documents\group6kami\grp_6_kami\Group6
     kami
@@ -331,9 +331,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 505e0000
-    m_LastClickedID: 24144
-    m_ExpandedIDs: 000000004e5e00000c5f000000ca9a3b
+    m_SelectedIDs: 505f0000
+    m_LastClickedID: 24400
+    m_ExpandedIDs: 00000000265f0000505f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000
+    m_ExpandedIDs: 00000000265f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -489,9 +489,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: c46cffff266effff406fffff5471ffff5272ffff7c73ffff087affff5e86ffff828effff3e8fffff828ffffff2a4ffff70a5ffffb4a5ffffd2dfffff50e0ffff96e0ffff9ef2ffff1af6ffff46f8ffffe2f9ffff1cfbffff6c8700007a8d0000b291000030920000d295000050960000
+      m_SelectedIDs: 04820000
+      m_LastClickedID: 33284
+      m_ExpandedIDs: 42e2fffff2e2ffff14e5ffffeae9ffff14eeffffcaf4ffff64f5ffff1cfbfffffe7700007a780000587a0000647c00004e7e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -762,9 +762,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 765.6582, y: 381.69257, z: -5.7154098}
+    m_Target: {x: 821.30835, y: 324.44778, z: -7.287572}
     speed: 2
-    m_Value: {x: 765.6582, y: 381.69257, z: -5.7154098}
+    m_Value: {x: 772.1716, y: 344.82416, z: -7.642032}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -815,9 +815,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 468.18744
+    m_Target: 752.2519
     speed: 2
-    m_Value: 468.18744
+    m_Value: 787.6983
   m_Ortho:
     m_Target: 1
     speed: 2
