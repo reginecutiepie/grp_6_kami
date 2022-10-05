@@ -206,7 +206,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1070870409}
+      - m_Target: {fileID: 1070870411}
         m_TargetAssemblyTypeName: playerscript, Assembly-CSharp
         m_MethodName: highKickP1
         m_Mode: 1
@@ -467,6 +467,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 67334682}
   m_CullTransparentMesh: 1
+--- !u!1 &180562282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 180562283}
+  - component: {fileID: 180562285}
+  - component: {fileID: 180562284}
+  m_Layer: 5
+  m_Name: Healthbar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &180562283
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180562282}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1977936404}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -484.97, y: 281.65}
+  m_SizeDelta: {x: -969.97, y: -654.2}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &180562284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180562282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: db560bc8b78b30648ac156ff6b8e0637, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &180562285
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180562282}
+  m_CullTransparentMesh: 1
 --- !u!1 &340231348
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,7 +626,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1070870409}
+      - m_Target: {fileID: 1070870411}
         m_TargetAssemblyTypeName: playerscript, Assembly-CSharp
         m_MethodName: highPunchP1
         m_Mode: 1
@@ -750,7 +826,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1070870409}
+      - m_Target: {fileID: 1070870411}
         m_TargetAssemblyTypeName: playerscript, Assembly-CSharp
         m_MethodName: highPunchP2
         m_Mode: 1
@@ -883,7 +959,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1070870409}
+      - m_Target: {fileID: 1070870411}
         m_TargetAssemblyTypeName: playerscript, Assembly-CSharp
         m_MethodName: lowPunchP1
         m_Mode: 1
@@ -1100,7 +1176,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1070870409}
+      - m_Target: {fileID: 1070870411}
         m_TargetAssemblyTypeName: playerscript, Assembly-CSharp
         m_MethodName: highKickP2
         m_Mode: 1
@@ -1162,7 +1238,7 @@ GameObject:
   - component: {fileID: 805211338}
   - component: {fileID: 805211337}
   m_Layer: 5
-  m_Name: HealthBar
+  m_Name: Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1181,7 +1257,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1977936404}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1261,7 +1337,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.27301025, y: 0.000005722}
+  m_AnchoredPosition: {x: -0.27301025, y: 0}
   m_SizeDelta: {x: 0.54626, y: 608.8604}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &851343821
@@ -1449,7 +1525,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1070870409}
+      - m_Target: {fileID: 1070870411}
         m_TargetAssemblyTypeName: playerscript, Assembly-CSharp
         m_MethodName: lowKickP2
         m_Mode: 1
@@ -1530,7 +1606,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1977936404}
-  m_RootOrder: 17
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1665,7 +1741,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1977936404}
-  m_RootOrder: 18
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1778,7 +1854,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1070870410}
-  - component: {fileID: 1070870409}
+  - component: {fileID: 1070870411}
   m_Layer: 0
   m_Name: GameObject-playerscript
   m_TagString: Untagged
@@ -1786,46 +1862,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1070870409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1070870408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1e5afad97e10d24b80bb1938e516f58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player1HPUI: {fileID: 1045353641}
-  player2HPUI: {fileID: 1050649380}
-  player1HP: 100
-  player2HP: 100
-  stvid: {fileID: 32900000, guid: dedf2cd611494c342b52ba98130b7701, type: 3}
-  attack: {fileID: 1227857735}
-  startingPos: {fileID: 523330219}
-  vpAtk: {fileID: 851550770}
-  specialOne: {fileID: 1176588812}
-  specialTwo: {fileID: 1119907509}
-  lowPunch1: {fileID: 32900000, guid: d6d79ff262819c547ae40b8cc8b6cc73, type: 3}
-  highPunch1: {fileID: 32900000, guid: a6e808c5ee026474b9bbbec788d7476f, type: 3}
-  lowKick1: {fileID: 32900000, guid: 1d492409b2a7803458623a621490d2b6, type: 3}
-  highKick1: {fileID: 32900000, guid: 740b667f34bc1a04eac6eefbf090d7de, type: 3}
-  special1: {fileID: 0}
-  lowPunch2: {fileID: 32900000, guid: 5d0e05c5594f6744a89c605f70242316, type: 3}
-  highPunch2: {fileID: 32900000, guid: be0da98483c8e3a479db6e752fc1fac6, type: 3}
-  lowKick2: {fileID: 32900000, guid: 002b263628b46824b945f73b62459f41, type: 3}
-  highKick2: {fileID: 32900000, guid: fb9380b4c0b8f124fb6d617558a3de04, type: 3}
-  special2: {fileID: 0}
-  missLP1: {fileID: 32900000, guid: 1943dbc7eb0247a41b581cbe538001d7, type: 3}
-  missHP1: {fileID: 32900000, guid: 692b1fb16ecd36a4cbde45f68f9a918e, type: 3}
-  missLK1: {fileID: 32900000, guid: 40d5cfdddf5b12043a1fff35c7e5564c, type: 3}
-  missHK1: {fileID: 32900000, guid: 944ea29c1f9efc249ba920806737a268, type: 3}
-  missLP2: {fileID: 32900000, guid: 5d0e05c5594f6744a89c605f70242316, type: 3}
-  missHP2: {fileID: 32900000, guid: d3b564b5d47b7a642b400c7a93a63cbc, type: 3}
-  missLK2: {fileID: 32900000, guid: 1a184a16dff2b1f44bb344ee0b163e8b, type: 3}
-  missHK2: {fileID: 32900000, guid: 430489922613dc64f948ec2604c9dd42, type: 3}
 --- !u!4 &1070870410
 Transform:
   m_ObjectHideFlags: 0
@@ -1841,6 +1877,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1070870411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070870408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e5afad97e10d24b80bb1938e516f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1HPUI: {fileID: 1045353641}
+  player2HPUI: {fileID: 1050649380}
+  player1HP: 0
+  player2HP: 0
+  maxHealth: 0
+  healthbar1: {fileID: 180562284}
+  healthbar2: {fileID: 1920343397}
+  stvid: {fileID: 32900000, guid: dedf2cd611494c342b52ba98130b7701, type: 3}
+  attack: {fileID: 1227857735}
+  startingPos: {fileID: 523330219}
+  vpAtk: {fileID: 851550770}
+  specialOne: {fileID: 1176588812}
+  specialTwo: {fileID: 1119907509}
+  lowPunch1: {fileID: 32900000, guid: d6d79ff262819c547ae40b8cc8b6cc73, type: 3}
+  highPunch1: {fileID: 32900000, guid: a6e808c5ee026474b9bbbec788d7476f, type: 3}
+  lowKick1: {fileID: 32900000, guid: 1d492409b2a7803458623a621490d2b6, type: 3}
+  highKick1: {fileID: 32900000, guid: 740b667f34bc1a04eac6eefbf090d7de, type: 3}
+  special1: {fileID: 32900000, guid: 0b1f676ecdf2b3e46b2ad28a5cf8f928, type: 3}
+  lowPunch2: {fileID: 32900000, guid: 5d0e05c5594f6744a89c605f70242316, type: 3}
+  highPunch2: {fileID: 32900000, guid: be0da98483c8e3a479db6e752fc1fac6, type: 3}
+  lowKick2: {fileID: 32900000, guid: 002b263628b46824b945f73b62459f41, type: 3}
+  highKick2: {fileID: 32900000, guid: fb9380b4c0b8f124fb6d617558a3de04, type: 3}
+  special2: {fileID: 32900000, guid: d50a660285c2afc4493828cd0d3f3e1e, type: 3}
+  missLP1: {fileID: 32900000, guid: 1943dbc7eb0247a41b581cbe538001d7, type: 3}
+  missHP1: {fileID: 32900000, guid: 692b1fb16ecd36a4cbde45f68f9a918e, type: 3}
+  missLK1: {fileID: 32900000, guid: 40d5cfdddf5b12043a1fff35c7e5564c, type: 3}
+  missHK1: {fileID: 32900000, guid: 944ea29c1f9efc249ba920806737a268, type: 3}
+  missLP2: {fileID: 32900000, guid: 022fe511904b2524ba2e846876b9ec17, type: 3}
+  missHP2: {fileID: 32900000, guid: d3b564b5d47b7a642b400c7a93a63cbc, type: 3}
+  missLK2: {fileID: 32900000, guid: 1a184a16dff2b1f44bb344ee0b163e8b, type: 3}
+  missHK2: {fileID: 32900000, guid: 430489922613dc64f948ec2604c9dd42, type: 3}
 --- !u!1 &1119907507
 GameObject:
   m_ObjectHideFlags: 0
@@ -1924,7 +2003,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1070870409}
+      - m_Target: {fileID: 1070870411}
         m_TargetAssemblyTypeName: playerscript, Assembly-CSharp
         m_MethodName: specialP2
         m_Mode: 1
@@ -2057,7 +2136,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1070870409}
+      - m_Target: {fileID: 1070870411}
         m_TargetAssemblyTypeName: playerscript, Assembly-CSharp
         m_MethodName: specialP1
         m_Mode: 1
@@ -2142,7 +2221,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00012207, y: 0.0024109}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0.0024108887}
   m_SizeDelta: {x: -0.00012207, y: 608.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1227857737
@@ -2180,6 +2259,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227857735}
   m_CullTransparentMesh: 1
+--- !u!1 &1657328340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1657328342}
+  - component: {fileID: 1657328341}
+  m_Layer: 0
+  m_Name: Nameholder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1657328341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657328340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bee10f77e31dec4ea1e4f74d54547d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  display_player1_name: {fileID: 1905448974}
+  display_player2_name: {fileID: 67334684}
+--- !u!4 &1657328342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657328340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 622.14545, y: 441.56357, z: -6.4093623}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1905448972
 GameObject:
   m_ObjectHideFlags: 0
@@ -2315,6 +2440,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905448972}
   m_CullTransparentMesh: 1
+--- !u!1 &1920343395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1920343396}
+  - component: {fileID: 1920343398}
+  - component: {fileID: 1920343397}
+  m_Layer: 5
+  m_Name: Healthbar 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1920343396
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920343395}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1977936404}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 503.58, y: 282.8106}
+  m_SizeDelta: {x: -944.75, y: -656.5012}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1920343397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920343395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 93867fb64dab23a45bfa551db756422f, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 1
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1920343398
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920343395}
+  m_CullTransparentMesh: 1
 --- !u!1 &1939193838
 GameObject:
   m_ObjectHideFlags: 0
@@ -2398,7 +2599,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1070870409}
+      - m_Target: {fileID: 1070870411}
         m_TargetAssemblyTypeName: playerscript, Assembly-CSharp
         m_MethodName: lowPunchP2
         m_Mode: 1
@@ -2555,7 +2756,9 @@ RectTransform:
   - {fileID: 1119907508}
   - {fileID: 853937277}
   - {fileID: 736684040}
+  - {fileID: 180562283}
   - {fileID: 805211336}
+  - {fileID: 1920343396}
   - {fileID: 1991346879}
   - {fileID: 1045353642}
   - {fileID: 1050649381}
@@ -2579,7 +2782,7 @@ GameObject:
   - component: {fileID: 1991346881}
   - component: {fileID: 1991346880}
   m_Layer: 5
-  m_Name: HealthBar (1)
+  m_Name: Frame2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2598,7 +2801,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1977936404}
-  m_RootOrder: 16
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2793,7 +2996,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1070870409}
+      - m_Target: {fileID: 1070870411}
         m_TargetAssemblyTypeName: playerscript, Assembly-CSharp
         m_MethodName: lowKickP1
         m_Mode: 1

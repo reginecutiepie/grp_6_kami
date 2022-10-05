@@ -9,8 +9,11 @@ public class playerscript : MonoBehaviour
 {
     public GameObject player1HPUI;
     public GameObject player2HPUI;
-    public int player1HP = 10;
-    public int player2HP = 10;
+    public int player1HP;
+    public int player2HP;
+    public int maxHealth;
+    public Image healthbar1;
+    public Image healthbar2;
     public VideoClip stvid;
     public GameObject attack;
     public VideoPlayer startingPos;
@@ -25,6 +28,9 @@ public class playerscript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        maxHealth = settingsmenuscript.settingsMenuscript.intplayer_hp;
+        player1HP = maxHealth;
+        player2HP = maxHealth;
         startingPos.gameObject.GetComponent<VideoPlayer>().clip = stvid;
         startingPos.gameObject.GetComponent<VideoPlayer>().Play();
     }
@@ -34,14 +40,21 @@ public class playerscript : MonoBehaviour
     {
         player1HPUI.gameObject.GetComponent<TMPro.TextMeshProUGUI>().text = player1HP + "";
         player2HPUI.gameObject.GetComponent<TMPro.TextMeshProUGUI>().text = player2HP + "";
+        UpdateHealthUI();
 
-        if(player2HP <= 0){
+        if(player2HP <= 0 && healthbar1.GetComponent<Image>().fillAmount == 0){
             SceneManager.LoadScene(2);
-        }else if(player1HP <= 0){
+        }else if(player1HP <= 0 && healthbar2.GetComponent<Image>().fillAmount == 0){
             SceneManager.LoadScene(3);
         }else{
 
         }
+    }
+
+    public void UpdateHealthUI()
+    {
+        healthbar1.fillAmount = (float)player1HP/(float)maxHealth;
+        healthbar2.fillAmount = (float)player2HP/(float)maxHealth;
     }
 
     public void dealDamage(int damage, int playerHP, int playerNum){
