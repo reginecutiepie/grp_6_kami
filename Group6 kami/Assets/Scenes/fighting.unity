@@ -1906,12 +1906,12 @@ MonoBehaviour:
   highPunch1: {fileID: 32900000, guid: a6e808c5ee026474b9bbbec788d7476f, type: 3}
   lowKick1: {fileID: 32900000, guid: 1d492409b2a7803458623a621490d2b6, type: 3}
   highKick1: {fileID: 32900000, guid: 740b667f34bc1a04eac6eefbf090d7de, type: 3}
-  special1: {fileID: 32900000, guid: 0b1f676ecdf2b3e46b2ad28a5cf8f928, type: 3}
+  special1: {fileID: 32900000, guid: cba216656dc033b4f99e8acacd9add16, type: 3}
   lowPunch2: {fileID: 32900000, guid: 5d0e05c5594f6744a89c605f70242316, type: 3}
   highPunch2: {fileID: 32900000, guid: be0da98483c8e3a479db6e752fc1fac6, type: 3}
   lowKick2: {fileID: 32900000, guid: 002b263628b46824b945f73b62459f41, type: 3}
   highKick2: {fileID: 32900000, guid: fb9380b4c0b8f124fb6d617558a3de04, type: 3}
-  special2: {fileID: 32900000, guid: d50a660285c2afc4493828cd0d3f3e1e, type: 3}
+  special2: {fileID: 32900000, guid: 349afdd7e929cb54b9369dd531217434, type: 3}
   missLP1: {fileID: 32900000, guid: 1943dbc7eb0247a41b581cbe538001d7, type: 3}
   missHP1: {fileID: 32900000, guid: 692b1fb16ecd36a4cbde45f68f9a918e, type: 3}
   missLK1: {fileID: 32900000, guid: 40d5cfdddf5b12043a1fff35c7e5564c, type: 3}
